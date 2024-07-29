@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root{
+    --azul: #2c74e2;
+}
+
+
+
+header{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-image: url("../banner.jpeg");
+    font-size: larger;
+    font-weight: 200;
+}
+
+.atalhos{
+    height: 2rem;
+    background-color: var(--azul);
+    display: flex;
+    justify-content: space-evenly;
+}
+.atalhos a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    color: white;
+    background-color: var(--azul);
+    font-size: small;
+    height: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 120px - 4rem);
+}
+
+.contato-main {
+    align-items: center;
+}
+
+.principal h1 {
+    font-weight: 800;
+    padding: 1rem 1rem;
+}
+
+.principal h2 {
+    font-size: larger;
+    font-weight: 100;
+    padding: 0.5rem 1rem;
+}
+
+.principal ol, ul {
+    font-size: larger;
+    font-weight: 100;
+    padding: 0.5rem 2rem;
+}
+
+fieldset{
+    margin: 2rem;
+    padding: 0.5rem;
+    border: 2px solid black;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+select{
+    border: 1px solid gray;
+    background-color: white;
+}
+
+input {
+    border: 1px solid gray;
+}
+
+textarea {
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+}
+
+div {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.botoes button {
+    margin: 5px 5px;
+    background-color: #3374d6;
+    color: white;
+    border-radius: 50%;
+    box-shadow:0 0 2px black;
+    transform: translateY(2px);
+    border: none;
+    border-style: outset;
+    padding: 2px;
+    font-size: 20px;
+    height: 4.5rem;
+    width: 4.5rem;
+}
+
+
+.topo {
+    display: block;
+}
+
+.topo div, p, a{
+    padding: 0 1rem;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.topo div p{
+    font-weight: 800;
+}
+
+.topo div li{
+    margin: 1rem;
+}
+
+.topo p{
+    padding: 1rem;
+}
+
+.topo div a{
+    font-weight: normal;
+    text-decoration: none;margin-bottom: 0.1rem;
+    color: black;
+}
+
+.curso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curso h1 {
+    margin-top: 1rem;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.curso tr td {
+    padding: 1rem;
+}
+
+table, td, tr, th {
+    width: max-content;
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 0 1.1rem;
+}
+
+table th{
+    font-size: large;
+}
+td {
+    text-align: center;
+}
+
+.materia {
+    text-align: left;
+}
